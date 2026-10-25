@@ -1,0 +1,18 @@
+---
+layout: default
+nav: blog
+---
+<section class="band-blush page-top" style="padding-bottom: 56px;">
+  <div class="narrow">
+    <p class="breadcrumb"><a href="{{ '/blog/' | relative_url }}">Blog</a> / {{ page.category | default: "News" }}</p>
+    <h1>{{ page.title }}</h1>
+    <p class="post-meta">{{ page.date | date: "%-d %B %Y" }} · {{ page.author | default: site.title }}</p>
+  </div>
+</section>
+
+<article class="band-white" style="padding: 56px 0 88px;">
+  <div class="narrow prose post-body">
+{{ content }}
+    <p style="margin-top: 48px; font-size: 15px;"><a href="{{ '/blog/' | relative_url }}">← Back to the blog</a></p>
+  </div>
+</article>

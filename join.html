@@ -1,0 +1,61 @@
+---
+layout: default
+title: Join the network
+nav: join
+permalink: /join/
+---
+<!-- The "Join the network" button uses the form link set in _config.yml (join_form_url). -->
+<section class="join-top">
+  <img src="{{ '/images/join.jpg' | relative_url }}" alt="">
+  <p class="photo-credit">Photo by <a href="https://unsplash.com/@pawel_czerwinski?utm_source=virina_collective&amp;utm_medium=referral">Pawel Czerwinski</a> on <a href="https://unsplash.com/photos/blue-white-and-pink-abstract-painting-8FOE-5_QNIg?utm_source=virina_collective&amp;utm_medium=referral">Unsplash</a></p>
+  <div class="wrap two-col">
+    <div style="flex: 1 1 520px; min-width: 0;">
+      <p class="eyebrow">Join the network</p>
+      <h1 style="font-size: clamp(36px, 5vw, 54px); line-height: 1.1; letter-spacing: -0.02em; margin-bottom: 24px;">We are <span class="accent">growing</span></h1>
+      <p class="lead">We are building a European community of researchers working on women's health, across all fields and career stages.<br>Join the network to hear about our news and events, including our first conference.</p>
+      <div style="display: flex; flex-wrap: wrap; gap: 16px; align-items: center;">
+        <a class="btn btn-white btn-large" href="{{ site.join_form_url }}" target="_blank" rel="noopener">Join the network ↗</a>
+        <span class="note">Opens Google Forms in a new tab</span>
+      </div>
+    </div>
+    <div class="join-ask">
+      <h2>What we'll ask</h2>
+      <ul>
+        <li>Your name, email, institution and country</li>
+        <li>Your career stage</li>
+        <li>Your field(s) of expertise</li>
+        <li>A few lines about your work (optional)</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="band-white" style="padding: 88px 0;">
+  <div class="wrap">
+    <h2 class="section-title" style="font-size: 34px; margin-bottom: 40px;">What joining means</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Our first conference</h3>
+        <p>Be the first to hear about our first conference and how to take part.</p>
+      </div>
+      <div class="card">
+        <h3>A growing community</h3>
+        <p>Connect with researchers working on women's health across fields and countries.</p>
+      </div>
+      <div class="card">
+        <h3>News and events</h3>
+        <p>Receive occasional updates on the collective and its activities.</p>
+      </div>
+    </div>
+
+    <div class="expert-box">
+      <h3>Are you an expert in one of our fields?</h3>
+      <p>Separately from the network, we are interviewing experts to map knowledge gaps and research priorities in women's health. If you would like to contribute, write to us at <a href="mailto:{{ site.email }}">{{ site.email }}</a>.<br><a href="{{ '/blog/we-are-looking-for-experts/' | relative_url }}">Read more about the interviews</a></p>
+    </div>
+
+    <div class="small-print">
+      <p><strong style="color: var(--ink); font-weight: 500;">Questions?</strong> Write to us at <a href="mailto:{{ site.email }}">{{ site.email }}</a>.</p>
+      <p style="font-size: 14px;">Your details are stored in The Virina Collective's Google account and used only to contact you about the network. <a href="{{ '/privacy/' | relative_url }}">Privacy policy</a></p>
+    </div>
+  </div>
+</section>

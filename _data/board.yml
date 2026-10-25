@@ -1,0 +1,77 @@
+# =========================================================
+# Board members, in the order they appear on the Board page.
+#
+# To add someone: copy one block (from "- name:" down to "link:"),
+# paste it where they should appear, and change the values.
+# Keep the two spaces before each line under "- name:".
+#
+# bio:      two or three sentences about the person's research.
+# photo:  file name in the images/board folder, or leave empty ("")
+#         to show their initials instead.
+# affiliation, bio, link, linkedin: leave as "" if not known yet.
+# link:     ORCID (shown as "ORCID") or lab page (shown as "Lab page")
+# linkedin: LinkedIn profile address
+# =========================================================
+
+- name: "Laura Díaz"
+  initials: "LD"
+  photo: "laura-diaz.jpg"
+  affiliation: ""
+  role: "Coordinator · Microbiome · IBSycle PI"
+  bio: "Laura studies how the gut, the brain and the microbiome interact, and how diet affects neurological conditions such as epilepsy and multiple sclerosis. After research posts in Spain and Germany, including at Charité in Berlin, she now leads IBSycle. She is also a committed science communicator."
+  link: "https://orcid.org/0000-0002-7589-2547"
+  linkedin: "https://www.linkedin.com/in/lauradiazmar/"
+
+- name: "Morgane E. Le Dréan"
+  initials: "ML"
+  photo: "morgane-le-drean.jpg"
+  affiliation: "University College Cork · Ireland"
+  role: "Microbiome · Enteric nervous system"
+  bio: "Morgane is a Marie Skłodowska-Curie fellow at University College Cork and APC Microbiome Ireland. She studies how gut microbes interact with the enteric nervous system, and how this shapes gut problems in autism. She trained in neuroscience in France and the UK and did her PhD at INSERM in Nantes."
+  link: "https://orcid.org/0009-0006-2804-2271"
+  linkedin: "https://www.linkedin.com/in/morgane-e-le-dr%C3%A9an-phd-05b13b182/"
+
+- name: "Hind Hussein"
+  initials: "HH"
+  photo: "hind-hussein.jpg"
+  affiliation: "INSERM, Toulouse · France"
+  role: "Coordinator · Lead applicant · Immunology"
+  bio: "Hind is an immunologist who studies how the immune and nervous systems of the gut work together in visceral pain. At KU Leuven, she investigated the immune mechanisms behind abdominal pain in irritable bowel syndrome, from mast cells to food-induced pain. She now continues this work at INSERM in Toulouse."
+  link: "https://orcid.org/0000-0001-6309-8242"
+  linkedin: "https://www.linkedin.com/in/hind-hussein-8135009a/"
+
+- name: "Boushra Dalile"
+  initials: "BD"
+  photo: "boushra-dalile.jpg"
+  affiliation: "KU Leuven · Belgium"
+  role: "Co-applicant · Psychology · Neuroimaging"
+  bio: "Boushra moved from psychology and cognitive neuroscience into biomedical sciences. At KU Leuven, she studies the gut-brain axis, in particular how short-chain fatty acids produced by gut bacteria influence stress, fear and memory. She received the 2024 Glenn Gibson Early Career Researcher Award from ISAPP."
+  link: "https://orcid.org/0000-0003-1064-7214"
+  linkedin: "https://www.linkedin.com/in/boushradalile/"
+
+- name: "Elena Lucarini"
+  initials: "EL"
+  photo: "elena-lucarini.jpg"
+  affiliation: "University of Florence · Italy"
+  role: "Pain · Pharmacology"
+  bio: "Elena is a pharmacologist at the University of Florence. Using preclinical models, she studies the mechanisms behind painful conditions such as irritable bowel syndrome, inflammatory bowel disease and vulvodynia, and looks for new ways to relieve them, including by targeting the gut microbiota."
+  link: "https://orcid.org/0000-0002-3459-2660"
+  linkedin: "https://www.linkedin.com/in/elena-lucarini-b85b1a2a6/"
+
+- name: "Ginevra Sperandio"
+  initials: "GS"
+  photo: "ginevra-sperandio.jpg"
+  affiliation: "DIS · Denmark"
+  role: "Pain · Neuroscience"
+  bio: "Ginevra is a neuroscientist working on chronic pain. Her doctoral research, a Marie Skłodowska-Curie joint doctorate between Germany and France, uses large long-term datasets to understand how childhood adversity predicts chronic pain and mood disorders. She also works with the European Pain Federation (EFIC) and is committed to supporting women in neuroscience."
+  link: ""
+  linkedin: "https://www.linkedin.com/in/ginevra-sperandio-822884239/"
+
+- name: "Antonia Zumblick"
+  initials: "AZ"
+  photo: "antonia-zumblick.jpg"
+  affiliation: "Charité, Berlin · Germany"
+  role: "Nutrition"
+  bio: "Antonia is a nutritional scientist and PhD candidate in the Department of Endocrinology and Metabolic Diseases at Charité in Berlin. Her research covers nutrition, obesity and type 2 diabetes, including diabetes remission, proteomics and glucose monitoring. She studied nutritional science at the universities of Jena and Potsdam."
+  link: "https://orcid.org/0009-0001-1639-8311"
+  linkedin: "https://www.linkedin.com/in/antonia-zumblick-b65678185/"

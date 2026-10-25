@@ -1,0 +1,26 @@
+# =========================================================
+# The Virina Collective: site settings
+# Change a value after the colon, then click "Commit changes".
+# Keep the quotation marks.
+# =========================================================
+
+title: "The Virina Collective"
+description: "A European interdisciplinary research collective bringing together researchers to advance women's health research."
+
+# The web address of the site. Change this only if you use your own domain.
+url: "https://thevirinacollective.github.io"
+baseurl: ""
+
+# Contact email shown across the site
+email: "thevirinacollective@gmail.com"
+
+# Link to the Google Form people use to join the network.
+# Replace with the short link from Google Forms (Send > link icon > Shorten URL).
+join_form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdc2OJ_13UzPqXXYeeV8q1HIfCTV9xIf8wFAgTCK4Ei_W_leg/viewform"
+
+# Blog post addresses look like /blog/post-title/
+permalink: /blog/:title/
+
+# Files that are not part of the website
+exclude:
+  - README.md

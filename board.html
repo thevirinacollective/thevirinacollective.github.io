@@ -1,0 +1,42 @@
+---
+layout: default
+title: Board
+nav: board
+permalink: /board/
+---
+<!-- The members themselves are listed in _data/board.yml -->
+<section class="band-blush page-top">
+  <div class="wrap">
+    <p class="eyebrow">The board</p>
+    <h1>Building a <span class="accent">European</span> network</h1>
+    <p class="lead">The researchers coordinating the collective, from across Europe, each bringing a different perspective on women's health.</p>
+  </div>
+</section>
+
+<section style="padding: 72px 0 96px;">
+  <div class="wrap grid grid-wide">
+    {% for member in site.data.board %}
+    <article class="card member">
+      <div class="photo">
+        {% if member.photo != "" %}
+        <img src="{{ '/images/board/' | append: member.photo | relative_url }}" alt="{{ member.name }}">
+        {% else %}
+        <span aria-hidden="true">{{ member.initials }}</span>
+        {% endif %}
+      </div>
+      <div class="body">
+        <h2>{{ member.name }}</h2>
+        {% if member.affiliation != "" %}<p class="affiliation">{{ member.affiliation }}</p>{% endif %}
+        <p class="role">{{ member.role }}</p>
+        {% if member.bio and member.bio != "" %}<p class="bio">{{ member.bio }}</p>{% endif %}
+        {% if member.link != "" or member.linkedin %}
+        <p class="links">
+          {% if member.link != "" %}<a href="{{ member.link }}">{% if member.link contains "orcid.org" %}ORCID{% else %}Lab page{% endif %}</a>{% endif %}
+          {% if member.linkedin and member.linkedin != "" %}<a href="{{ member.linkedin }}">LinkedIn</a>{% endif %}
+        </p>
+        {% endif %}
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</section>

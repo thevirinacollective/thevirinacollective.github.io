@@ -1,0 +1,35 @@
+---
+layout: default
+title: Blog
+nav: blog
+permalink: /blog/
+---
+<!-- Posts are listed automatically from the _posts folder, newest first. -->
+<section class="band-blush page-top">
+  <div class="wrap">
+    <p class="eyebrow">Blog</p>
+    <h1>News from the collective</h1>
+    <p class="lead">Updates on our work, our events and the people behind it.</p>
+  </div>
+</section>
+
+<section style="padding: 72px 0 104px;">
+  <div class="wrap grid grid-cards">
+    {% for post in site.posts %}
+    <article class="card" style="padding: 0; overflow: hidden;">
+      <div style="height: 8px; background: var(--raspberry);"></div>
+      <div style="padding: 30px 32px 32px; display: flex; flex-direction: column; flex: 1;">
+        <p style="font-size: 13px; color: var(--faint); margin-bottom: 10px;">{{ post.date | date: "%-d %B %Y" }} · {{ post.category | default: "News" }}</p>
+        <h2 style="font-size: 24px; line-height: 1.25; margin-bottom: 12px;"><a href="{{ post.url | relative_url }}" style="color: var(--ink); text-decoration: none;">{{ post.title }}</a></h2>
+        <p style="font-size: 16px; color: var(--body);">{{ post.excerpt | strip_html | strip }}</p>
+        <a class="more" href="{{ post.url | relative_url }}">Read more →</a>
+      </div>
+    </article>
+    {% endfor %}
+
+    <article class="card card-dashed" style="justify-content: center; padding: 32px;">
+      <h2 style="font-size: 21px;">More posts soon</h2>
+      <p><a href="{{ '/join/' | relative_url }}">Join the network</a> to hear about new posts and events.</p>
+    </article>
+  </div>
+</section>
